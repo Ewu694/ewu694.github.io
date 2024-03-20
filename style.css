@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+/* styling for html page */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    padding-top: 60px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* desktop nav styling */
+
+.header{
+    background-color: #181818;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.header_content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    min-height: 60px;
+}
+
+.nav{
+    transition: all 0.3s ease-in-out;
+}
+
+.nav_list{
+    display: flex;
+    column-gap: 40px;
+}
+
+.nav_item{
+
+}
+
+.nav_link{
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 30px;
+    transition: all 0.4s;
+}
+
+.nav_link:hover, .nav_link:focus{
+    color: rgba(255, 255, 255, 1);
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-decoration-color: #32CD32;
+}
+
+.logo{
+    color: white;
+    font-size: 50px;
+    letter-spacing: -1.5px;
+    font-weight: 500;
+}
+
+.logo:hover{
+    cursor: default;
+    color: #ff9800;
+}
+
+/* hamburger menu styling for mobile */
+
+.hamburger{
+    display: none;
+    cursor: pointer;
+}
+
+.bar{
+    height: 2px;
+    width: 27px;
+    background-color: white;
+    margin: 5px 0;
+    opacity: 0.8;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav--open{
+    transform: translate(0) !important;
+}
+
+.hamburger--open .bar:nth-child(1){
+    transform: translateY(7px) rotate(45deg);
+}
+
+.hamburger--open .bar:nth-child(2){
+    opacity: 0;
+}
+
+.hamburger--open .bar:nth-child(3){
+    transform: translateY(-7px) rotate(-45deg);
+}
+
+@media(max-width: 1200px){
+    .nav{
+        position: fixed;
+        top: 60px;
+        left: 0;
+        background-color: #181818;
+        width: 100%;
+        padding: 10px 0 25px;
+        transform: translateX(-100%);
+        }
+
+    .nav_list{
+        flex-direction: column;
+        align-items: center;
+        row-gap: 20px;
+    }
+
+    .nav_link{
+        font-size: 30px;
+    }
+
+    .hamburger{
+        display: block;
+    }
+}
