@@ -15,10 +15,10 @@
             <a href="#" class="logo"> Eric Wu </a>
             <nav class="nav">
                 <ul class = "nav_list">
-                    <li class="nav_item"><a href="#" class="nav_link">Me</a></li>
-                    <li class="nav_item"><a href="#" class="nav_link">Experience</a></li>
-                    <li class="nav_item"><a href="#" class="nav_link">Projects</a></li>
-                    <li class="nav_item"><a href="#" class="nav_link">Contact</a></li>
+                    <li class="nav_item"><a href="#me" class="nav_link">Me</a></li>
+                    <li class="nav_item"><a href="#experience" class="nav_link">Experience</a></li>
+                    <li class="nav_item"><a href="#projects" class="nav_link">Projects</a></li>
+                    <li class="nav_item"><a href="#contact" class="nav_link">Contact</a></li>
                 </ul>
             </nav>
             <div class="hamburger">
@@ -28,5 +28,37 @@
             </div>
         </div>
     </header>
+    <section id="profile">
+        <div class="section_pic_container">
+            <img src="./assets/profile-pic.png" alt="Eric Wu profile picture">
+        </div>
+        <div class="section_text">
+            <p class="section_text_p1">Hello, I'm</p>
+            <h1 class="title">Eric Wu</h1>
+            <p class="section_text_p2">Aspiring Software/Cloud Engineer</p>
+            <div class="btn_container">
+                <button 
+                class="btn btn-color-2" 
+                onclick="window.open('./assets/Eric_Wu.pdf')">
+                Download CV
+                </button>
+                <button 
+                class="btn btn-color-1" 
+                onclick="location.href = './#contact'">
+                Contact Me
+                </button>
+            </div>
+            <div id="socials_container">
+                <img src="./assets/linkedin.png"
+                 alt="Linkedin Profile"
+                class="icon" 
+                onclick="location.href='https://www.linkedin.com/in/eric-wu-dev/'">
+                <img src="./assets/github.png"
+                 alt="Github Profile"
+                class="icon" 
+                onclick="location.href='https://github.com/ewu694'">
+            </div>
+        </div>
+    </section>
 </body>
 </html>
