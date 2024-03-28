@@ -5,4 +5,4 @@
 - CSS
 - JavaScript
 
-# HTML is used to create the website, CSS to style, JavaScript to add functionality for mobile users and media queries to further viewing experience for mobile viewing.
+HTML is used to create the website, CSS to style, JavaScript to add functionality for mobile users and media queries to further viewing experience for mobile viewing.
