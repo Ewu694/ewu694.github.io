@@ -1,4 +1,4 @@
-# Personal Portfolio website containing information about me, my skills, recent projects, my social media and a place to contact me at with a downloadable resume. <br>
+Personal Portfolio website containing information about me, my skills, recent projects, my social media and a place to contact me at with a downloadable resume. <br>
 
 ## Technologies Used:
 - HTML
