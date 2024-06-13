@@ -5,6 +5,7 @@ Personal Portfolio website containing information about me, my skills, recent pr
 - HTML
 - CSS
 - JavaScript
+<br>
 HTML is used to create the website, CSS to style, JavaScript to add functionality for mobile users and media queries to further viewing experience for mobile viewing.
 
 
