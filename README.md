@@ -14,6 +14,7 @@ Brief description of me as a person, my goals, and where I am in life currently.
 
 # Skills
 Shows off the skills I've learnt and my proficency in them.
+There are a lot of ways to optimize my code or just making it more clean through code automation, but I don't want this to be my final portfolio website so I won't bother
 
 # Recent Projects
 A display of the recent projects I've completed, in the future when I remake the website again with react, I will add a sliding display board
