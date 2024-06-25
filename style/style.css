@@ -362,6 +362,12 @@ article .icon {
     position: relative;
 }
 
+.card-details_containers{
+    margin-left: 10px;
+    justify-content: center;
+    flex-direction: column;
+}
+
 .color-container{
     border-color: rgb(163, 163, 163);
     background: rgb(250, 250, 250);
@@ -369,8 +375,8 @@ article .icon {
 
 .project-img{
     border-radius: 2rem;
-    width: 90%;
-    height: 90%;
+    width: 100%;
+    height: auto;
 }
 
 .project-title{
