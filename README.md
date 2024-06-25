@@ -1,5 +1,7 @@
 # Description
-Personal Portfolio website containing information about me, my skills, recent projects, my social media and a place to contact me at with a downloadable resume. <br>
+Personal Portfolio website containing information about me, my skills, recent projects, my social media and a place to contact me at with a downloadable resume. <br> <br>
+I know there are a lot of ways to optimize my code or just making it more clean through code automation, but I don't want this to be my final portfolio website so I won't bother
+
 
 ## Technologies Used
 - HTML
@@ -20,9 +22,5 @@ A display of the recent projects I've completed, in the future when I remake the
 
 # Social Media
 Feel free to shoot me an email or message on my social media!
-
-<br>
-I know there are a lot of ways to optimize my code or just making it more clean through code automation, but I don't want this to be my final portfolio website so I won't bother
-
 
 
