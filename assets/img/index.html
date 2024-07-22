@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="/style/mediaqueries.css">
+    <script src="scripts/script.js" defer></script> 
+
+</head>
+<body>
+  <nav id="desktop-nav">
+    <div class="logo"> &lt;Eric Wu /&gt;</div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <nav id="hamburger-nav">
+    <div class="logo">Eric Wu</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <li><a href="#about" onclick="toggleMenu()">About Me</a></li>
+        <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+      </div>
+    </div>
+  </nav>
+    <section id="profile">
+        <div class="section-pic_container">
+            <img src="./assets/profile-pic.png" alt="Eric Wu profile picture">
+        </div>
+        <div class="section_text">
+            <p class="section-text_p1">Hello, I'm</p>
+            <h1 class="title">Eric Wu</h1>
+            <p class="section-text_p2">Aspiring Software/Cloud Engineer</p>
+            <div class="btn_container">
+                <button 
+                class="btn btn-color-2" 
+                onclick="window.open('./assets/Eric Wu Resume.pdf')">
+                Download CV
+                </button>
+                <button 
+                class="btn btn-color-1" 
+                onclick="location.href = './#contact'">
+                Contact Me
+                </button>
+            </div>
+            <div id="socials_container">
+                <img src="./assets/linkedin.svg"
+                 alt="Linkedin Profile"
+                class="icon linkedin-icon" 
+                onclick="location.href='https://www.linkedin.com/in/eric-wu-dev/'">
+                <img src="./assets/github.png"
+                 alt="Github Profile"
+                class="icon" 
+                onclick="location.href='https://github.com/ewu694'">
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section-text_p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section_container">
+            <div class="section-pic_container">
+                <img 
+                    src="./assets/about.png" 
+                    alt="profile-pic"
+                    class="about_pic"
+                />
+            </div>
+            <div class="about-details-container">
+                <div class="about_containers">
+                    <div class="details_container">
+                        <img 
+                            src="./assets/experience.png"
+                            alt="experience icon" 
+                            class="icon"
+                        />
+                        <h3>Experience</h3>
+                        <p>Aspiring <br/> SWE/Cloud Engineer</p>
+                    </div>
+                    <div class="details_container">
+                        <img 
+                            src="./assets/education.png"
+                            alt="education icon" 
+                            class="icon"
+                        />
+                        <h3>Education</h3>
+                        <p>Bachelors <br/> Computer Science</p>
+                    </div>
+                </div>
+                <div class="text_container">
+                    <p>
+                      Hey! I'm a rising senior at Hunter College majoring in Computer Science with a minor in Mathematics. I have a strong foundation in JavaScript, Python, and C++, and proficiency in HTML, CSS, React.js, and AWS. Currently, I'm exploring new frameworks and libraries, learning API usage, and advancing my cloud knowledge to earn the SAA-C03 certificate through Andrew Cantrill’s course. 
+                      Im always looking for new opportunities that allow me to contribute to innovative projects and further expand my expertise!
+                    </p>
+                </div>
+            </div>
+        </div>
+        <img
+            src="./assets/arrow.png"
+            alt="Arrow icon"
+            class="icon and arrow"
+            onclick="location.href='./#experience'"
+        />
+    </section>
+    <section id="experience">
+        <p class="section-text_p3">Skill</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details_container">
+          <div class="about_containers">
+            <div class="details_container">
+              <h2 class="experience-sub-title">Languages</h2>
+              <div class="article_container">
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>C++</h3>
+                    <p>Experienced</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Python</h3>
+                    <p>Experienced</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>JavaScript</h3>
+                    <p>Experienced</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>TypeScript</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>C#</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>  
+              </div>
+            </div>
+            <div class="details_container">
+              <h2 class="experience-sub-title">Other</h2>
+              <div class="article_container">
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>AWS</h3>
+                    <p>Cloud Practitioner</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>HTML</h3>
+                    <p>Experienced</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>CSS</h3>
+                    <p>Experienced</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Git</h3>
+                    <p>Experienced</p>
+                  </div>
+                </article>
+                <article>
+                    <img
+                      src="./assets/checkmark.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>Databases</h3>
+                      <p>Intermediate</p>
+                    </div>
+                  </article>
+              </div>
+            </div>
+            <div class="details_container">
+              <h2 class="experience-sub-title">Tech-Stack</h2>
+              <div class="article_container">
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>React.JS</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Tailwind.CSS</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Next Framework</h3>
+                    <p>Basic</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Node.JS</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+              </div>
+          </div>
+        </div>
+        <img
+          src="./assets/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#projects'"
+        />
+    </section>
+    <section id="projects">
+        <p class="section-text_p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="card-details_containers">
+            <div class="about_containers">
+            <div class="details_container color_container card">
+                <div class="article_container">
+                    <img 
+                        src="./assets/project-1.png" 
+                        alt="project 1"
+                        class="project-img"
+                    />
+                </div>
+                <h2 class="experience-sub-title project-title">aScrape</h2>
+                <h3>TypeScript| React | NextJs | TailwindCSS | Node | Axios + Cheerio</h3>
+                <div class="btn_container">
+                    <button class="btn btn-color-2 project_btn" onclick="location.href='https://github.com/Ewu694/aScrape'">
+                        Github Repository
+                    </button>
+                </div>
+            </div>
+            <div class="details_container color_container card">
+              <div class="article_container">
+                  <img 
+                      src="./assets/project-4.jpg" 
+                      alt="project 4"
+                      class="project-img"
+                  />
+              </div>
+              <h2 class="experience-sub-title project-title">Dominos Pizza Script</h2>
+              <h3>Python</h3>
+              <div class="btn_container">
+                  <button class="btn btn-color-2 project_btn" onclick="location.href='https://github.com/Ewu694/Automated-Dominos-Pizzas'">
+                      Github Repository
+                  </button>
+              </div>
+            </div>
+            <div class="details_container color_container card">
+              <div class="article_container">
+                  <img 
+                      src="./assets/project-5.png" 
+                      alt="project 5"
+                      class="project-img"
+                  />
+              </div>
+              <h2 class="experience-sub-title project-title">Internship Tracker Script</h2>
+              <h3>Python | Discord API</h3>
+              <div class="btn_container">
+                  <button class="btn btn-color-2 project_btn" onclick="location.href='https://github.com/Ewu694/Internship-Tracker'">
+                      Github Repository
+                  </button>
+              </div>
+            </div>
+            <!--<div class="details_container color_container card">
+                <div class="article_container">
+                    <img 
+                        src="./assets/project-2.png" 
+                        alt="project 2"
+                        class="project-img"
+                    />
+                </div>
+                <h2 class="experience-sub-title project-title">Meowshi</h2>
+                <div class="btn_container">
+                    <button class="btn btn-color-2 project_btn" onclick="location.href='https://github.com/Ewu694/meowshi'">
+                        Github Repository
+
+                    </button>
+                    <button class="btn btn-color-2 project_btn" onclick="location.href='https://ewu694.itch.io/meowshi'">
+                      Live Demo
+                  </button>
+                </div>
+            </div> -->
+            <div class="about_containers">
+              <div class="details_container color_container card">
+                  <div class="article_container">
+                      <img 
+                          src="./assets/project-6.png" 
+                          alt="project 6"
+                          class="project-img"
+                      />
+                  </div>
+                  <h2 class="experience-sub-title project-title">Simulated Operating System</h2>
+                  <h3>C++</h3>
+                  <div class="btn_container">
+                      <button class="btn btn-color-2 project_btn" onclick="location.href='https://github.com/Ewu694/SimulatedOS'">
+                          Github Repository
+                      </button>
+                  </div>
+            </div>
+            <div class="details_container color_container card">
+                <div class="article_container">
+                    <img 
+                        src="./assets/project-3.png" 
+                        alt="project 3"
+                        class="project-img"
+                    />
+                </div>
+                <h2 class="experience-sub-title project-title">Simple Card Game</h2>
+                <h3>C++</h3>
+                <div class="btn_container">
+                    <button class="btn btn-color-2 project_btn" onclick="location.href='https://github.com/Ewu694/Card-Game'">
+                        Github Repository
+                    </button>
+                </div>
+            </div>
+            </div>
+        </div>
+        <img
+            src="./assets/arrow.png"
+            alt="Arrow icon"
+            class="icon and arrow"
+            onclick="location.href='./#contact'"
+        />
+    </section>
+    <section id="contact">
+        <p class="section-text_p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper_container">
+            <div class="contact-info_container">
+                <img 
+                    src="./assets/email.png" 
+                    alt="email icon"
+                    class="icon contact-icon email-icon"
+                />
+                <p>
+                    <a href="mailto:ericwu.dev@gmail.com">ericwu.dev@gmail.com</a>
+                </p>
+            </div>
+            <div class="contact-info_container">
+                <img 
+                    src="./assets/linkedin.svg" 
+                    alt="linkedin icon"
+                    class="icon contact-icon linkedin-icon"
+                />
+                <p>
+                    <a href="https://www.linkedin.com/in/eric-wu-dev/">LinkedIn</a>
+                </p>
+            </div>
+            <div class="contact-info_container">
+                <img 
+                    src="./assets/instagram.png" 
+                    alt="instagramcon"
+                    class="icon contact-icon"
+                />
+                <p>
+                    <a href="https://www.instagram.com/e.wu1021/">Instagram</a>
+                </p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links_container">
+              <ul class="nav-links">
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+              </ul>
+            </div>
+        </nav>
+    </footer>
+</body>
+</html>
