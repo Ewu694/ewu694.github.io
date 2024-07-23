@@ -751,6 +751,25 @@ bi:hover{
   border: 2px solid var(--accent-color);
 }
 
+.btn_container{
+  display: flex;
+  justify-content: center;
+  gap: 1rem
+}
+
+.btn-color-2{
+  border: #181818 0.1rem solid;
+  
+}
+
+.btn-color-2:hover{
+  cursor: pointer;
+  background: #0563bb;
+  color: white;
+  border: #ffffff 0.1rem solid;
+  gap: 1rem;
+}
+
 /*--------------------------------------------------------------
 # Portfolio Section
 --------------------------------------------------------------*/
