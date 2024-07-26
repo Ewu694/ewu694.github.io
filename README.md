@@ -1,6 +1,8 @@
 # Description
 Personal Portfolio website containing information about me, my skills, recent projects, my social media and a place to contact me at with a downloadable resume. <br> <br>
 
+Can be accessed via ericwu.tech or ewu694.github.io
+
 ## Technologies Used
 - HTML
 - CSS
